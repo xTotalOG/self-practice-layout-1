@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: black solid 4px;
+    margin: 24px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    border: black solid 3px;
+    height: 50px;
+    width: 50px;
+}
+
+.box-other{
+    margin-left: 20px;
+}
+
+.box-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
